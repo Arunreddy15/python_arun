@@ -1,0 +1,49 @@
+Django:
+It is free and open source web application framework (framework is a combination certain components and packages).
+Django it is a web application framework.
+in python we use dajango for build web applications backend part in python.
+
+In web applications one thing is very famous "MVC"-Model View Controller.
+Model-Its for data.
+View- Its what we see on screen.
+Controller- Which controls the operations.
+
+But in Django we have "MVT"-Model View Templet.
+
+Major reason to use Django even we have other frameworks in python, because django is faster than that.
+1.Fast
+2.components
+3.security
+4.Scalability
+
+======================================
+
+How to install "Django"?
+1.verify in cmd python installed or not by using command
+->"python --version"
+2.verify is there pip  exist or not, pip is installer manager for python is ot automatically installed when install python.check verson of pip by command
+->"pip --version"
+3.install  django
+first verify by cmd
+->"django-admin --version"
+4.install env now
+->"pip install vitualenvwrapper-win"
+5.create environment ,name of env is 
+"test"
+->"mkvirtualenv test"
+6.install dajngo
+->"pip install django"
+Succcessfully installed.
+NOTE:
+if we check in the cmd about django it won't be found because we installed env for projects only not django. 
+version of django
+->"jango-admin --version"
+and then next  we have to create dir by cmd
+->"mkdir projects"
+open that dir by ->"cd projects"
+start project by this cmd
+->"django-admin startproject "filename"  "
+
+by insatlling django we will get server
+->"python manage.py runserver"
+and we have the localhost ip address
